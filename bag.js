@@ -85,7 +85,7 @@ displayBagSummary();
 function generatedItemHtml(item){
 return ` <div class="bag-item-container">
         <div class="item-left-part">
-        <img class="bag-item-img" src="../${item.image}" alt=""> </div>
+        <img class="bag-item-img" src="./${item.image}" alt=""> </div>
             <div class="item-right-part">
             <div class="company">${item.company}</div>
             <div class="item-name">${item.item_name}</div>
@@ -102,3 +102,4 @@ return ` <div class="bag-item-container">
                 </div></div>
                 <div class="remove-from-cart" onclick="removeFromBag(${item.id})">X</div> </div>`;
 }
+
