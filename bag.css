@@ -134,3 +134,19 @@
   height: 14px;
   cursor: pointer;
 }
+
+/* login page style */
+#nav-bar{ 
+ background-color:#0A0F1F; }
+
+ .profile-card {
+      max-width: 600px;
+      margin: 4px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+    .profile-header {
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
